@@ -81,7 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
     #end
     holiday.each do |key, supplies|
       binding.pry
-      supplies.select()
+      supplies.select do ||
       end
     end
   end
