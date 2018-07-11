@@ -80,7 +80,8 @@ def all_holidays_with_bbq(holiday_hash)
      # holiday
     #end
     binding.pry
-    holiday.select do |supply|
+    holiday.each do |key, supplies|
+      binding.pry
       if supply == "BBQ"
       end
     end
