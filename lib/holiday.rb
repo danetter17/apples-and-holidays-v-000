@@ -81,7 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
         key
       end
     end
-    binding.pry
+    #binding.pry
   end.flatten.compact
   
 end
