@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
      # holiday
     #end
     #binding.pry
-    holiday.select
+    holiday.select 
   end
   
 end
