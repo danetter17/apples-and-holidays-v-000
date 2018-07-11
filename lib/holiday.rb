@@ -81,8 +81,11 @@ def all_holidays_with_bbq(holiday_hash)
     #end
     holiday.each do |key, supplies|
       binding.pry
-      supplies.select do ||
+      supplies.select do |maybe_bbq|
+        maybe_bbq == "BBQ"
+        
       end
+    end
     end
   end
   
